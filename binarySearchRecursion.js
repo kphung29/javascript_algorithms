@@ -16,5 +16,7 @@ function binarySearchRecursion(arr, target, low, high) {
 
 const arrNum = [14, 19, 22, 44, 69, 102, 199];
 
-binarySearchRecursion(arrNum, 102, 0, 6);
+binarySearchRecursion(arrNum, 102, 0, 6); // true
+
+binarySearchRecursion(arr, 20, 0, 6); // false
 
